@@ -29,6 +29,10 @@ jobs:
           echo "$(brew --prefix)/bin" >> "$GITHUB_PATH"
 
       - name: Install from this tap
+        env:
+          # gocode update --check asks the GitHub API for the latest release;
+          # without a token, shared runners often hit the 60-an-hour limit.
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           brew tap-new --no-git local/gocode
           cp Formula/gocode.rb "$(brew --repository)/Library/Taps/local/homebrew-gocode/Formula/"
