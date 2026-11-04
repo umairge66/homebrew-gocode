@@ -1,28 +1,28 @@
 class Gocode < Formula
   desc "Agentic coding assistant for your terminal, written in Go"
   homepage "https://github.com/umairge66/gocode"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/umairge66/gocode/releases/download/v0.1.6/gocode-0.1.6-darwin-arm64.tar.gz"
-      sha256 "144bf47e884a1ecfcd325c3a3cb5e6c0e801ae99260aad6e7d623378ef7623a9"
+      url "https://github.com/umairge66/gocode/releases/download/v0.1.7/gocode-0.1.7-darwin-arm64.tar.gz"
+      sha256 "0312a79a1f5953f52c09768e35cc507404f9ed286cd5d42eff07d0bda56000ab"
     end
     on_intel do
-      url "https://github.com/umairge66/gocode/releases/download/v0.1.6/gocode-0.1.6-darwin-amd64.tar.gz"
-      sha256 "de27f017b20b7bcc7be14f8cddaccfb61b31744c877b0b167d943f31946817e4"
+      url "https://github.com/umairge66/gocode/releases/download/v0.1.7/gocode-0.1.7-darwin-amd64.tar.gz"
+      sha256 "7175ad4e46da4b056182016166764efa3155571c83a2b3e1b800dcc7bc98c1c6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/umairge66/gocode/releases/download/v0.1.6/gocode-0.1.6-linux-arm64.tar.gz"
-      sha256 "744725956dc9739a17256299d8860fc03d1789c48eee9c9fe68b29899235a010"
+      url "https://github.com/umairge66/gocode/releases/download/v0.1.7/gocode-0.1.7-linux-arm64.tar.gz"
+      sha256 "a505a4c3547e9fbd4011db9f7914d6f7f87e093831c3d5cb8f77a221d854d128"
     end
     on_intel do
-      url "https://github.com/umairge66/gocode/releases/download/v0.1.6/gocode-0.1.6-linux-amd64.tar.gz"
-      sha256 "faa4d9967967916c88b29b9fad72225055acf35537b2fd536670eda5f2f94b11"
+      url "https://github.com/umairge66/gocode/releases/download/v0.1.7/gocode-0.1.7-linux-amd64.tar.gz"
+      sha256 "a20c3ffb14fb5e4038b78e5530e48a996df1142968924bd7771aee580c6e539d"
     end
   end
 
